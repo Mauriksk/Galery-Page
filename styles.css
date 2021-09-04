@@ -44,6 +44,7 @@ header{
 h1{
     font-size: 5rem;
     margin-bottom: 40px;
+    
 }
 
 .hamburger{
@@ -60,6 +61,7 @@ h1{
 }
 
 .menu-navegacion{
+    z-index: 900;
     position: fixed;
     top:0;
     right: 0px;
@@ -365,4 +367,41 @@ footer{
         width: 80%;
         margin-bottom: 40px;
     }
+}
+
+@media  screen and (max-width:500px){
+    
+h1{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.menu-navegacion{
+    width: 100vw;
+}
+
+.hamburger{
+    top: 20px;
+    right: 20px;
+}
+
+.agregar-imagen{
+    width: 95%;
+}
+
+.subtitulo{
+    font-size: 30px;
+}
+
+.img-galeria{
+    width: 95%;
+}
+
+.social-media{
+    width: 100%;
+}
+
+.contact-us{
+    width: 90%;
+}
 }
